@@ -10,7 +10,7 @@ ROOT_DIR = BASE_DIR.parent
 try:
     SECRET_KEY = environ["SECRET_KEY"]
 except KeyError as exception:
-    raise KeyError("Environment valiable \"SECRET_KEY\" isn't set!") from exception
+    raise KeyError("Environment valiable SECRET_KEY isn't set!") from exception
 
 DEBUG = False
 
@@ -23,6 +23,8 @@ INSTALLED_APPS = (
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+
+    "abilities",
 )
 
 MIDDLEWARE = (
