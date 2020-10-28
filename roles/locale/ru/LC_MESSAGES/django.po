@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-28 00:47+0200\n"
+"POT-Creation-Date: 2020-10-29 00:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,50 +24,26 @@ msgstr ""
 msgid "Roles"
 msgstr "Роли"
 
-#: .\models\battlefield_role.py:11
-msgid "Dedicated Transport"
-msgstr "Приданные транспорты"
-
-#: .\models\battlefield_role.py:12
-msgid "Elites"
-msgstr "Элитные войска"
-
-#: .\models\battlefield_role.py:13
-msgid "Fast Attack"
-msgstr "Мобильные войска"
-
-#: .\models\battlefield_role.py:14
-msgid "Flyer"
-msgstr "Летательные аппараты"
-
-#: .\models\battlefield_role.py:15
-msgid "Fortification"
-msgstr "Укрепления"
-
-#: .\models\battlefield_role.py:16
-msgid "Heavy Support"
-msgstr "Тяжёлая огневая поддержка"
-
-#: .\models\battlefield_role.py:17
-msgid "HQ"
-msgstr "Командные единицы"
-
-#: .\models\battlefield_role.py:18
-msgid "Lord of War"
-msgstr "Властелины войны"
-
-#: .\models\battlefield_role.py:19
-msgid "Troops"
-msgstr "Основные войска"
-
-#: .\models\battlefield_role.py:23
+#: .\models\battlefield_role.py:23 .\models\battlefield_role_translation.py:14
 msgid "title"
 msgstr "название"
 
-#: .\models\battlefield_role.py:30
+#: .\models\battlefield_role.py:30 .\models\battlefield_role_translation.py:11
 msgid "battlefield role"
 msgstr "роль на поле боя"
 
 #: .\models\battlefield_role.py:31
 msgid "battlefield roles"
 msgstr "роли на поле боя"
+
+#: .\models\battlefield_role_translation.py:13
+msgid "locale"
+msgstr "локаль"
+
+#: .\models\battlefield_role_translation.py:18
+msgid "battlefield role translation"
+msgstr "перевод роли на поле боя"
+
+#: .\models\battlefield_role_translation.py:19
+msgid "battlefield role translations"
+msgstr "перевод роли на поле боя"
