@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+  <object model="roles.BattlefieldRole" pk="1">
+    <field name="title" type="CharField">HQ</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="2">
+    <field name="title" type="CharField">Troops</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="3">
+    <field name="title" type="CharField">Elites</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="4">
+    <field name="title" type="CharField">Fast Attack</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="5">
+    <field name="title" type="CharField">Heavy Support</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="6">
+    <field name="title" type="CharField">Dedicated Transport</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="7">
+    <field name="title" type="CharField">Flyer</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="8">
+    <field name="title" type="CharField">Fortification</field>
+  </object>
+  <object model="roles.BattlefieldRole" pk="9">
+    <field name="title" type="CharField">Lord of War</field>
+  </object>
+</django-objects>

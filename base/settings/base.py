@@ -4,8 +4,8 @@ from os import environ
 from django.utils.translation import gettext_lazy as _
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-ROOT_DIR = BASE_DIR.parent
+BASE_DIR = Path(__file__).resolve().parent.parent  # <path>/<to>/09C40/base
+ROOT_DIR = BASE_DIR.parent  # <path>/<to>/09C40/
 
 try:
     SECRET_KEY = environ["SECRET_KEY"]
@@ -70,6 +70,8 @@ DATABASES = {
     }
 }
 
+FIXTURE_DIRS = (BASE_DIR / "fixtures",)
+
 AUTH_PASSWORD_VALIDATORS = (
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
@@ -103,7 +105,7 @@ MEDIA_ROOT = BASE_DIR / "media"
 MEDIA_URL = "/media/"
 
 STATICFILES_DIRS = (BASE_DIR / "static",)
-STATIC_ROOT = ROOT_DIR / "staticfiles"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 STATIC_URL = "/static/"
 
 LOG_DIR = BASE_DIR / "logs"
