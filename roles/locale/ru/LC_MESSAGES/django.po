@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-28 00:47+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\apps\roles_config.py:7
+msgid "Roles"
+msgstr "Роли"
+
+#: .\models\battlefield_role.py:11
+msgid "Dedicated Transport"
+msgstr "Приданные транспорты"
+
+#: .\models\battlefield_role.py:12
+msgid "Elites"
+msgstr "Элитные войска"
+
+#: .\models\battlefield_role.py:13
+msgid "Fast Attack"
+msgstr "Мобильные войска"
+
+#: .\models\battlefield_role.py:14
+msgid "Flyer"
+msgstr "Летательные аппараты"
+
+#: .\models\battlefield_role.py:15
+msgid "Fortification"
+msgstr "Укрепления"
+
+#: .\models\battlefield_role.py:16
+msgid "Heavy Support"
+msgstr "Тяжёлая огневая поддержка"
+
+#: .\models\battlefield_role.py:17
+msgid "HQ"
+msgstr "Командные единицы"
+
+#: .\models\battlefield_role.py:18
+msgid "Lord of War"
+msgstr "Властелины войны"
+
+#: .\models\battlefield_role.py:19
+msgid "Troops"
+msgstr "Основные войска"
+
+#: .\models\battlefield_role.py:23
+msgid "title"
+msgstr "название"
+
+#: .\models\battlefield_role.py:30
+msgid "battlefield role"
+msgstr "роль на поле боя"
+
+#: .\models\battlefield_role.py:31
+msgid "battlefield roles"
+msgstr "роли на поле боя"
