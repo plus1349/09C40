@@ -3,20 +3,19 @@ from django.db.models.constraints import CheckConstraint
 from django.db.models.enums import TextChoices
 from django.db.models.fields import CharField
 from django.db.models.query_utils import Q
-
 from django.utils.translation import gettext_lazy as _
 
 
 class Title(TextChoices):
-    DEDICATED_TRANSPORT = "Dedicated Transport", _("Dedicated Transport")
-    ELITES = "Elites", _("Elites")
-    FAST_ATTACK = "Fast Attack", _("Fast Attack")
-    FLYER = "Flyer", _("Flyer")
-    FORTIFICATION = "Fortification", _("Fortification")
-    HEAVY_SUPPORT = "Heavy Support", _("Heavy Support")
-    HQ = "HQ", _("HQ")
-    LORD_OF_WAR = "Lord of War", _("Lord of War")
-    TROOPS = "Troops", _("Troops")
+    DEDICATED_TRANSPORT = "Dedicated Transport", "Dedicated Transport"
+    ELITES = "Elites", "Elites"
+    FAST_ATTACK = "Fast Attack", "Fast Attack"
+    FLYER = "Flyer", "Flyer"
+    FORTIFICATION = "Fortification", "Fortification"
+    HEAVY_SUPPORT = "Heavy Support", "Heavy Support"
+    HQ = "HQ", "HQ"
+    LORD_OF_WAR = "Lord of War", "Lord of War"
+    TROOPS = "Troops", "Troops"
 
 
 class BattlefieldRole(Model):
