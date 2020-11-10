@@ -11,13 +11,13 @@ $ cd /<path>/<to>/09C40/
 
 Create and activate a virtual environment:
 ```
-$ <python> -m virtualenv <env>
+$ <python> -m virtualenv <venv>
 
-$ source /<path>/<to>/<env>/bin/activate (Linux & macOS)
+$ source /<path>/<to>/<venv>/bin/activate (Linux & macOS)
 ```
 or
 ```
-$ \<path>\<to>\<env>\scripts\activate (Windows)
+$ \<path>\<to>\<venv>\scripts\activate (Windows)
 ```
 Install requirements:
 ```
@@ -29,7 +29,7 @@ from os import environ
 
 environ.setdefault("SECRET_KEY", "<secret key>")
 ```
-or change `"SECRET_KEY"` in `base/settings/base.py` 
+or define `"SECRET_KEY"` constant in `base/settings/dev.py` 
 
 Run server:
 ```

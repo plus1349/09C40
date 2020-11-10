@@ -1,5 +1,4 @@
-from django.db.models.base import Model
-from django.db.models.fields import CharField, TextField
+from django.db.models import CharField, Model, TextField
 from django.utils.translation import gettext_lazy as _
 
 

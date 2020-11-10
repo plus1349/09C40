@@ -1,8 +1,5 @@
 from django.conf import settings
-from django.db.models.base import Model
-from django.db.models.deletion import CASCADE
-from django.db.models.fields import CharField
-from django.db.models.fields.related import ForeignKey
+from django.db.models import CharField, ForeignKey, Model, CASCADE
 from django.utils.translation import ugettext_lazy as _
 
 
